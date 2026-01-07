@@ -154,22 +154,22 @@
 // Oppgave 10
 //  Lag et program som tar en måned som input og viser hvor mange dager som er i denne måneden (for eksempel 30 dager i april, 28 eller 29 dager i februar). 
 
-let månedNummer = Number(prompt("Skriv inn en måned (1-12):"));
-let dager;
+// let månedNummer = Number(prompt("Skriv inn en måned (1-12):"));
+// let dager;
 
-if (isNaN(månedNummer) || månedNummer < 1 || månedNummer > 12) {
-    console.log("Ugyldig måned. Vennligst skriv inn et tall mellom 1 og 12.");
-} else {
-    switch (månedNummer) {
-        case 1: case 3: case 5: case 7: case 8: case 10: case 12:
-            dager = 31;
-            break;
-        case 4: case 6: case 9: case 11:
-            dager = 30;
-            break;
-        case 2:
-            dager = "28 eller 29 (avhengig av om det er skuddår)";
-            break;
-    }
-    console.log("Måneden har " + dager + " dager.");
-}
+// if (isNaN(månedNummer) || månedNummer < 1 || månedNummer > 12) {
+//     console.log("Ugyldig måned. Vennligst skriv inn et tall mellom 1 og 12.");
+// } else {
+//     switch (månedNummer) {
+//         case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+//             dager = 31;
+//             break;
+//         case 4: case 6: case 9: case 11:
+//             dager = 30;
+//             break;
+//         case 2:
+//             dager = "28 eller 29 (avhengig av om det er skuddår)";
+//             break;
+//     }
+//     console.log("Måneden har " + dager + " dager.");
+// }
